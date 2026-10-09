@@ -36,9 +36,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/pressly/cli/internal/helpdoc"
-	"github.com/pressly/cli/pkg/suggest"
-	"github.com/pressly/cli/xflag"
+	"github.com/UNO-SOFT/cli/internal/helpdoc"
+	"github.com/UNO-SOFT/cli/pkg/suggest"
+	"github.com/UNO-SOFT/cli/xflag"
 )
 
 // Command describes a command in a CLI.

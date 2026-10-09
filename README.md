@@ -2,8 +2,8 @@
 
 <img align="right" width="125" src=".github/pressly_cli_avatar.png">
 
-[![GoDoc](https://godoc.org/github.com/pressly/cli?status.svg)](https://pkg.go.dev/github.com/pressly/cli#pkg-index)
-[![CI](https://github.com/pressly/cli/actions/workflows/ci.yaml/badge.svg)](https://github.com/pressly/cli/actions/workflows/ci.yaml)
+[![GoDoc](https://godoc.org/github.com/UNO-SOFT/cli?status.svg)](https://pkg.go.dev/github.com/pressly/cli#pkg-index)
+[![CI](https://github.com/UNO-SOFT/cli/actions/workflows/ci.yaml/badge.svg)](https://github.com/pressly/cli/actions/workflows/ci.yaml)
 [![Docs](https://img.shields.io/badge/docs-pressly.github.io%2Fcli-blue)](https://pressly.github.io/cli)
 
 An intentionally minimal Go package for building CLI applications. It extends the standard library's
@@ -25,7 +25,7 @@ Docs: <https://pressly.github.io/cli>
 ## Installation
 
 ```bash
-go get github.com/pressly/cli@latest
+go get github.com/UNO-SOFT/cli@latest
 ```
 
 Requires Go 1.27 or higher.

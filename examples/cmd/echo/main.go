@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/pressly/cli"
+	"github.com/UNO-SOFT/cli"
 )
 
 const capitalize cli.FlagName[bool] = "capitalize"

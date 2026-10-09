@@ -8,7 +8,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/pressly/cli/pkg/textutil"
+	"github.com/UNO-SOFT/cli/pkg/textutil"
 )
 
 const defaultTerminalWidth = 80

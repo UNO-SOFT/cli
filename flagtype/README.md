@@ -19,4 +19,4 @@ Exec: func(ctx context.Context, s *cli.State) error {
 ```
 
 The package also includes values for URLs and regular expressions. See the
-[package documentation](https://pkg.go.dev/github.com/pressly/cli/flagtype) for the full API.
+[package documentation](https://pkg.go.dev/github.com/UNO-SOFT/cli/flagtype) for the full API.

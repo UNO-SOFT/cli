@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pressly/cli"
+	"github.com/UNO-SOFT/cli"
 )
 
 func main() {

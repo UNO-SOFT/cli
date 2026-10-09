@@ -1,4 +1,4 @@
-module github.com/pressly/cli
+module github.com/UNO-SOFT/cli
 
 go 1.27.0
 

@@ -5,8 +5,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/pressly/cli"
-	"github.com/pressly/cli/internal/helpdoc"
+	"github.com/UNO-SOFT/cli"
+	"github.com/UNO-SOFT/cli/internal/helpdoc"
 )
 
 // Document is an ordered list of blocks that can be rendered as command help.

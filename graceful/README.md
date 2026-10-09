@@ -17,13 +17,13 @@ This pattern is useful for HTTP servers, workers, CLIs, and batch jobs.
 ## Installation
 
 ```bash
-go get github.com/pressly/cli@latest
+go get github.com/UNO-SOFT/cli@latest
 ```
 
 And import:
 
 ```go
-import "github.com/pressly/cli/graceful"
+import "github.com/UNO-SOFT/cli/graceful"
 ```
 
 ## Usage
