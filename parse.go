@@ -280,5 +280,8 @@ func isShortAlias(alias string) bool {
 	if len(alias) != 1 {
 		return false
 	}
-	return alias[0] >= 'a' && alias[0] <= 'z' || alias[0] >= 'A' && alias[0] <= 'Z'
+	r := alias[0]
+	return 'a' <= r && r <= 'z' ||
+		'A' <= r && r <= 'Z' ||
+		'0' <= r && r <= '9'
 }
