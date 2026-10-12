@@ -81,8 +81,9 @@ func resolveCommandPath(root *Command, argsToParse []string) (*Command, error) {
 				current = sub
 				i++
 				continue
+			} else if current.Exec == nil {
+				return nil, current.formatUnknownCommandError(arg)
 			}
-			return nil, current.formatUnknownCommandError(arg)
 		}
 		break
 	}
